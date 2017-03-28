@@ -1,0 +1,82 @@
+{
+  "localLibrary": {
+  },
+  "scenes": [
+    {
+      "uid": 0,
+      "width": 400,
+      "height": 300,
+      "components": [
+        {
+          "uid": 0,
+          "sceneID": 0,
+          "type": "btn",
+          "x": 200,
+          "y": 20
+        },
+        {
+          "uid": 1,
+          "sceneID": 0,
+          "type": "txt",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 20,
+          "value": "this is my txt component~"
+        },
+        {
+          "uid": 2,
+          "sceneID": 0,
+          "type": "pic",
+          "src": "https://img6.bdstatic.com/img/image/smallpic/z.jpg",
+          "x": 100,
+          "y": 100,
+          "width": 200,
+          "height": 200
+        }
+      ],
+      "actions": [
+        {
+          "startUID": 0,
+          "endUID": 2,
+          "condition": [
+            "click"
+          ],
+          "effects": [
+            {
+              "type": "fadeIn",
+              "time": 1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "uid": 1,
+      "width": 400,
+      "height": 600,
+      "components": [
+        {
+          "uid": 0,
+          "sceneID": 1,
+          "type": "txt",
+          "x": 0,
+          "y": 0,
+          "width": 200,
+          "height": 20,
+          "value": "txt2"
+        },
+        {
+          "uid": 0,
+          "sceneID": 1,
+          "type": "pic",
+          "src": "https://img6.bdstatic.com/img/image/smallpic/x.jpg",
+          "x": 100,
+          "y": 100,
+          "width": 200,
+          "height": 200
+        }
+      ]
+    }
+  ]
+}

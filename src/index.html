@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PPT</title>
+
+</head>
+<body>
+<button id="txt">文本</button>
+<button id="pic">图片</button>
+<button id="movie">视频</button>
+<div style="display: flex;">
+    <div id="scene">
+        <scene-template :scene-data="sceneData"></scene-template>
+    </div>
+    <div id="dat"></div>
+</div>
+
+<script src="../lib/vue.js"></script>
+<script src="../lib/dat.gui.min.js"></script>
+<script src="../lib/jquery.min.js"></script>
+
+</body>
+</html>

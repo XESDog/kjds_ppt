@@ -1,0 +1,20 @@
+{
+  "name": "kjds_ppt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "rm -rf dist && webpack && open -a '/Applications/Google Chrome.app' 'http://localhost:8080/dist'"
+  },
+  "author": "Mr.zheng",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "chai": "^3.5.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "html-webpack-plugin": "^2.28.0",
+    "mocha": "^3.2.0",
+    "webpack": "^2.3.1"
+  }
+}
